@@ -1,0 +1,4543 @@
+/*!
+ |-----------------------------------------------------------------------------------------
+ |
+ |
+ | body - Start
+ |
+ |
+ |-----------------------------------------------------------------------------------------
+*/
+body {
+  position: relative;
+}
+body.mobileMenuOpened {
+  overflow: hidden;
+}
+/*!
+ |-----------------------------------------------------------------------------------------
+ |
+ |
+ | body - end
+ |
+ |
+ |-----------------------------------------------------------------------------------------
+*/
+/*!
+ |-----------------------------------------------------------------------------------------
+ |
+ |
+ | Page Banner Mahube - Start
+ |
+ |
+ |-----------------------------------------------------------------------------------------
+*/
+.pageBannerMahube {
+  position: relative;
+}
+
+.pageBannerMahube * {
+  color: var(--color-white);
+}
+
+.pageBannerMahube img {
+  height: 300px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 50% 50%;
+     object-position: 50% 50%;
+}
+
+@media screen and (min-width: 991px) {
+  .pageBannerMahube img {
+    height: 550px;
+  }
+}
+
+.pageBannerMahube .pageBannerOverlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-black-pure);
+  opacity: 0.4;
+}
+
+.pageBannerMahube .pageBannerContent {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.pageBannerMahube .pageBannerContent,
+.pageBannerMahube .pageBannerContent .container,
+.pageBannerMahube .pageBannerContent .container .pageBannerInner {
+  height: 100%;
+}
+
+.pageBannerMahube .pageBannerContent .container .pageBannerInner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.pageBannerMahube .pageBannerContent h1 {
+  margin-bottom: 60px;
+  color: var(--color-white);
+  font-size: var(--font-size-xxx-large);
+}
+
+@media screen and (min-width: 991px) {
+  .pageBannerMahube .pageBannerContent h1 {
+    margin-bottom: 60px;
+    color: var(--color-white);
+    font-size: var(--font-size-xxxxx-large);
+  }
+}
+
+/*
+ |-----------------------------------------------------------------------------------------
+ |
+ |
+ | Page Banner Mahube - End
+ |
+ |
+ |-----------------------------------------------------------------------------------------
+*/
+/*
+ |-----------------------------------------------------------------------------------------
+ |
+ |
+ | Footer Mahube - Start
+ |
+ |
+ |-----------------------------------------------------------------------------------------
+*/
+.footerMahube {
+  background-color: var(--color-primary);
+}
+
+.footerMahube * {
+  color: var(--color-white);
+}
+
+.footerMahube .footerMain {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 70px 0 35px 0;
+  margin: 0 auto;
+  max-width: 450px;
+}
+
+@media screen and (min-width: 991px) {
+  .footerMahube .footerMain {
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .footerMahube .footerMain {
+    grid-template-columns: 1fr 1fr 1fr;
+    -webkit-column-gap: 60px;
+       -moz-column-gap: 60px;
+            column-gap: 60px;
+  }
+}
+
+.footerMahube .footerSectionHeader {
+  margin: 0 0 20px 0;
+}
+
+.footerMahube .footerSectionHeader *:last-child {
+  margin: 0;
+}
+
+.footerMahube .footerSectionHeader .footerTitle {
+  font-size: var(--font-size-large);
+  margin: 0 0 20px 0;
+}
+
+.footerMahube p {
+  font-size: var(--font-size-small);
+  margin: 0 0 25px 0;
+}
+
+.footerMahube p:last-child {
+  margin: 0;
+}
+
+.footerMahube .footerCol {
+  margin: 0 0 40px 0;
+}
+
+.footerMahube .footerCol:last-child {
+  margin: 0;
+}
+
+@media screen and (min-width: 991px) {
+  .footerMahube .footerCol {
+    margin: 0;
+  }
+}
+
+.footerMahube .footerCol .footerSection {
+  margin: 0 0 20px 0;
+}
+
+.footerMahube .footerCol .footerSection:last-child {
+  margin: 0;
+}
+
+.footerMahube .footerSection.footerLogo {
+  text-align: center;
+}
+
+@media screen and (min-width: 991px) {
+  .footerMahube .footerSection.footerLogo {
+    margin: 0 0 20px 0;
+    text-align: initial;
+  }
+}
+
+.footerMahube .footerLogo img {
+  width: 100%;
+  max-width: 250px;
+}
+
+@media screen and (min-width: 991px) {
+  .footerMahube .footerLogo img {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+.footerMahube .footerSection.footerDescription {
+  text-align: center;
+}
+
+@media screen and (min-width: 991px) {
+  .footerMahube .footerSection.footerDescription {
+    text-align: initial;
+  }
+}
+
+.footerMahube .footerSecondaryLogo img {
+  height: 100%;
+  max-height: 70px;
+}
+
+.footerMahube .footerSection.footerAddress {
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+
+@media screen and (min-width: 991px) {
+  .footerMahube .footerSection.footerAddress {
+    text-align: initial;
+  }
+}
+
+.footerMahube .footerSection.tellusHowYouThink {
+  text-align: center;
+}
+
+@media screen and (min-width: 991px) {
+  .footerMahube .footerSection.tellusHowYouThink {
+    text-align: initial;
+  }
+}
+
+.footerMahube .footerSection.tellusHowYouThink.footerSection {
+  margin: 0 0 30px 0;
+}
+
+.footerMahube .footerSection.tellusHowYouThink.desktop {
+  display: none;
+}
+
+@media screen and (min-width: 991px) {
+  .footerMahube .footerSection.tellusHowYouThink.desktop {
+    display: block;
+  }
+}
+
+.footerMahube .footerSection.tellusHowYouThink.mobile {
+  display: block;
+}
+
+@media screen and (min-width: 991px) {
+  .footerMahube .footerSection.tellusHowYouThink.mobile {
+    display: none;
+  }
+}
+
+.footerMahube .footerSocialLinks.desktop {
+  display: none;
+}
+
+@media screen and (min-width: 991px) {
+  .footerMahube .footerSocialLinks.desktop {
+    display: initial;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .footerMahube .footerSocialLinks.mobile {
+    display: none;
+  }
+}
+
+.footerMahube .footerSocialLinks.mobile .snsLink {
+  text-align: center;
+}
+
+.footerMahube .footerSocialLinks a {
+  background-color: var(--color-white);
+}
+
+.footerMahube .footerSocialLinks a:hover {
+  background-color: transparent;
+}
+
+.footerMahube .footerSocialLinks i {
+  color: var(--color-primary);
+}
+
+.footerMahube .footerSocialLinks a:hover i {
+  color: var(--color-white);
+}
+
+.footerMahube .footerSecondaryLogo.desktop {
+  display: none;
+}
+
+@media screen and (min-width: 991px) {
+  .footerMahube .footerSecondaryLogo.desktop {
+    display: initial;
+  }
+}
+
+.footerMahube .footerSecondaryLogo.mobile {
+  text-align: center;
+}
+
+@media screen and (min-width: 991px) {
+  .footerMahube .footerSecondaryLogo.mobile {
+    display: none;
+  }
+}
+
+.footerMahube table {
+  margin: 0;
+}
+
+.footerMahube .footerNewsletter {
+  text-align: center;
+}
+
+@media screen and (min-width: 991px) {
+  .footerMahube .footerNewsletter {
+    text-align: initial;
+  }
+}
+
+.footerMahube .footerNewsletter.footerSection {
+  margin: 0 0 30px 0;
+}
+
+.footerMahube .footerNewsletter .mwFormStatus {
+  margin: 0 0 15px 0;
+}
+
+.footerMahube .footerNewsletter table.Dialog td {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.footerMahube .footerNewsletter table.Dialog tbody:last-child td {
+  padding-bottom: 0;
+}
+
+.footerMahube .footerCopyright {
+  padding: 15px 0;
+  border-top: 1px solid var(--color-grey);
+  font-size: var(--font-size-x-small);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footerMahube .footerAttribution {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+@media screen and (min-width: 991px) {
+  .footerMahube .footerAttribution {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.footerMahube .footerAttribution > * {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+@media screen and (min-width: 767px) {
+  .footerMahube .footerAttribution > * {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    text-align: left;
+  }
+}
+
+.footerMahube .footerAttribution > *:last-child {
+  margin: 0;
+}
+
+.footerMahube .copyrightAutoYear {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 0 5px 0;
+  position: relative;
+}
+
+@media screen and (min-width: 991px) {
+  .footerMahube .copyrightAutoYear {
+    margin: 0;
+  }
+}
+
+.footerMahube .copyrightAutoYear > * {
+  margin: 0 5px 0 0;
+  display: inline-block;
+}
+
+.footerMahube .copyrightAutoYear > *:last-child {
+  margin: 0 20px 0 0;
+}
+
+@media screen and (min-width: 991px) {
+  .footerMahube .copyrightAutoYear > *:last-child {
+    margin: 0 20px 0 0;
+  }
+}
+
+
+@media screen and (min-width: 991px) {
+  .footerMahube .copyrightAutoYear::after {
+    display: block;
+    content: "";
+    height: 12px;
+    width: 1px;
+    background-color: white;
+    position: absolute;
+    left: calc(100% - 10px);
+    margin: 2px 0;
+  }
+}
+
+.footerMahube .footerActionMenu {
+  display: none;
+}
+
+@media screen and (min-width: 767px) {
+  .footerMahube .footerActionMenu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.footerMahube .footerMahubeActionMenuContent ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+}
+
+.footerMahube .footerMahubeActionMenuContent li {
+  padding: 0;
+  margin: 0;
+}
+
+.footerMahube .footerMahubeActionMenuContent li::before {
+  content: none;
+}
+
+.footerMahube .footerMahubeActionMenuContent a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: var(--font-size-x-small);
+  font-weight: bold;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.footerMahube .footerMahubeActionMenuContent a:hover {
+  background-color: var(--color-white);
+}
+
+.footerMahube .footerMahubeActionMenuContent a:hover span {
+  color: var(--color-primary);
+}
+
+.footerMahube .footerMahubeActionMenuContent a:hover path {
+  fill: var(--color-primary);
+}
+
+.footerMahube .footerMahubeActionMenuContent a span {
+  display: inline-block;
+  margin: 0 20px 0 0;
+}
+/*
+ |-----------------------------------------------------------------------------------------
+ |
+ |
+ | Footer Mahube - End
+ |
+ |
+ |-----------------------------------------------------------------------------------------
+*/
+/*
+ |-----------------------------------------------------------------------------------------
+ |
+ |
+ | Content Block - Start
+ |
+ |
+ |-----------------------------------------------------------------------------------------
+*/
+.contentBlockMahube {
+  min-height: 267px;
+  border-bottom: 2px solid var(--color-grey);
+  padding: 30px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+}
+
+.contentBlockMahube .blockContents p:last-child {
+  margin: 0;
+}
+
+.contentBlockMahube.plain {
+  border-bottom: none;
+}
+
+.contentBlockMahube.grey {
+  background-color: var(--color-grey-lightened);
+}
+
+.contentBlockMahube.withImage .imgBlock {
+  margin: 0 0 30px 0;
+  display: flex;
+}
+
+.contentBlockMahube.withImage .imgBlock img {
+  max-height: 100px;
+}
+
+@media screen and (min-width: 767px) {
+  .contentBlockMahube.withImage .imgBlock img {
+    max-height: 65px;
+  }
+}
+
+.contentBlockMahube > div {
+  width: 100%;
+}
+
+.contentBlockMahube .Content p:last-of-type {
+  margin: 0;
+}
+/*
+ |-----------------------------------------------------------------------------------------
+ |
+ |
+ | Content Block - End
+ |
+ |
+ |-----------------------------------------------------------------------------------------
+*/
+/*
+ |-----------------------------------------------------------------------------------------
+ |
+ |
+ | Content Block Two - Start
+ |
+ |
+ |-----------------------------------------------------------------------------------------
+*/
+.contentBlockMahubeTwo {
+  min-height: 183px;
+  padding: 30px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  background-color: var(--color-grey-lightened);
+}
+
+.contentBlockMahubeTwo > div {
+  width: 100%;
+}
+
+.contentBlockMahubeTwo .contentBlockMahubeWrap > h3 {
+  font-size: var(--font-size-large);
+  margin: 0 0 20px 0;
+}
+
+.contentBlockMahubeTwo .Content p {
+  font-size: var(--font-size-small);
+}
+
+.contentBlockMahubeTwo .Content a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.contentBlockMahubeTwo .Content a:hover {
+  color: var(--color-primary);
+}
+
+.contentBlockMahubeTwo .Content p:last-of-type {
+  margin: 0;
+}
+/*
+ |-----------------------------------------------------------------------------------------
+ |
+ |
+ | Content Block Two - End
+ |
+ |
+ |-----------------------------------------------------------------------------------------
+*/
+/*
+ |-----------------------------------------------------------------------------------------
+ |
+ |
+ | Accordion Mahube - Start
+ |
+ |
+ |-----------------------------------------------------------------------------------------
+*/
+.accordionMahube {
+  margin: 0 0 10px 0;
+}
+
+.accordionMahube .accordionBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  background-color: var(--color-white);
+}
+
+.accordionMahube .accordionBtn .accordionTitle {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin: 0 15px 0 0;
+}
+
+.accordionMahube .accordionBtn .accordionTitle .Content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.accordionMahube .accordionBtn .accordionTitle .Content .blockContents {
+  width: 100%;
+}
+
+.accordionMahube .accordionBtn .accordionTitle .Content * {
+  margin: 0;
+  color: var(--color-black);
+  font-size: var(--font-size-medium);
+  font-weight: bold;
+}
+
+.accordionMahube .accordionBtn .accordionIcon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.accordionMahube .accordionContent {
+  padding: 40px 20px;
+  background-color: var(--color-grey-x-lightened);
+}
+
+.accordionMahube .accordionContent .blockContents *:last-child {
+  margin: 0;
+}
+/*
+ |-----------------------------------------------------------------------------------------
+ |
+ |
+ | Accordion Mahube - End
+ |
+ |
+ |-----------------------------------------------------------------------------------------
+*/
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| Team Gallery Mahube - Start
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+.teamGalleryMahube .teamGalleryWrap {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+  -webkit-column-gap: 15px;
+     -moz-column-gap: 15px;
+          column-gap: 15px;
+  row-gap: 50px;
+}
+
+@media screen and (max-width: 991px) {
+  .teamGalleryMahube .teamGalleryWrap {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    row-gap: 25px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .teamGalleryMahube .teamGalleryWrap {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.teamGalleryMahube .teamItem {
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  background-color: var(--color-grey-lightened);
+}
+
+.teamGalleryMahube .teamItem>div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  cursor: default;
+}
+
+.teamGalleryMahube .teamItemContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 20px 20px;
+}
+
+.teamGalleryMahube .teamItemImg {
+  margin: 0 0 10px 0;
+}
+
+c
+.teamGalleryMahube h1,
+.teamGalleryMahube h2,
+.teamGalleryMahube h4,
+.teamGalleryMahube h5,
+.teamGalleryMahube h6 {
+  font-size: 0;
+}
+
+.teamGalleryMahube .teamItemContent h3 {
+  font-weight: bold;
+  font-size: var(--font-size-large);
+  color: var(--color-primary);
+  font-family: var(--font-secondary);
+  margin: 0 0 10px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .teamGalleryMahube .teamItemContent h3 {
+    font-size: 16px;
+  }
+}
+
+.teamGalleryMahube .teamItemContent a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.teamGalleryMahube .teamItemContent a:hover {
+  color: var(--color-primary);
+}
+
+.teamGalleryMahube .teamItemContent p {
+  font-size: var(--font-size-small);
+  margin: 0 0 10px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .teamGalleryMahube p {
+    font-size: 13px;
+  }
+}
+
+.teamGalleryMahube .teamItemTitle {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| Team Gallery Mahube - End
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| Spacer Two - Start
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+.spacerTwo {
+  padding: 40px 0;
+}
+
+.spacerTwo hr {
+  margin: 0;
+  background-color: var(--color-grey-x-lightened);
+}
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| Spacer Two - End
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| Spacer Three - Start
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+.spacerThree {
+  padding: 40px 0;
+}
+
+.spacerThree hr {
+  margin: 0;
+  background-color: var(--color-grey);
+}
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| Spacer Three - End
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| File List Mahube - Start
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+.filesListMahube {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media screen and (min-width: 845px) {
+  .filesListMahube {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.filesListMahube select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: var(--color-grey-x-lightened);
+  padding: 10px 20px;
+  border: none;
+  font-size: var(--font-size-x-small);
+  background-repeat: no-repeat;
+  background-size: var(--font-size-x-small);
+  background-position-y: center;
+  background-position-x: calc(100% - 20px);
+  width: 100%;
+  max-width: 100%;
+  cursor: pointer;
+  margin: 0 0 10px 0;
+}
+
+@media screen and (min-width: 845px) {
+  .filesListMahube select {
+    max-width: 370px;
+    margin: 0;
+  }
+}
+
+.filesListMahube .btn p {
+  margin: 0;
+}
+
+.filesListMahube .btn button {
+  width: 100%;
+}
+
+@media screen and (min-width: 845px) {
+  .filesListMahube .btn button {
+    width: initial;
+  }
+}
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| File List Mahube - End
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| Logo with Text - Start
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+.logoWithText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media screen and (min-width: 1200px) {
+  .logoWithText {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.logoWithText .image {
+  margin: 0 0 20px 0;
+}
+
+@media screen and (min-width: 1200px) {
+  .logoWithText .image {
+    width: 30%;
+    margin: 0 20px 0 0;
+  }
+}
+
+.logoWithText .image img {
+  max-height: 200px;
+}
+
+@media screen and (min-width: 1200px) {
+  .logoWithText .image img {
+    max-height: 100%;
+  }
+}
+
+.logoWithText .text {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  text-align: center;
+}
+
+
+@media screen and (min-width: 1200px) {
+  .logoWithText .text {
+    text-align: initial;
+  }
+}
+
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| Logo with Text - End
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| Newsletter Form - Start
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+.newsletterForm .mwInput {
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid var(--color-grey);
+  border-radius: 0 !important;
+  color: var(--color-white);
+}
+
+.newsletterForm .mwInput.hover,
+.newsletterForm .mwInput.focus {
+  background-color: transparent !important;
+}
+
+.newsletterForm .mwInput input {
+  padding: 0 !important;
+  font-size: var(--font-size-small);
+}
+
+.newsletterForm .mwInput input::-webkit-input-placeholder {
+  color: var(--color-grey);
+}
+
+.newsletterForm .mwInput input::-moz-placeholder {
+  color: var(--color-grey);
+}
+
+.newsletterForm .mwInput input:-ms-input-placeholder {
+  color: var(--color-grey);
+}
+
+.newsletterForm .mwInput input::-ms-input-placeholder {
+  color: var(--color-grey);
+}
+
+.newsletterForm .mwInput input::placeholder {
+  color: var(--color-grey);
+}
+
+.newsletterForm .submitBtnWrap {
+  margin: 22px 0 0 0;
+}
+
+.newsletterForm .submitBtnWrap button {
+  font-size: var(--font-size-x-small);
+  background-color: var(--color-white);
+  color: var(--color-primary);
+  font-weight: bold;
+  padding: 10px 30px;
+  cursor: pointer;
+  width: 100%;
+}
+
+@media screen and (min-width: 991px) {
+  .newsletterForm .submitBtnWrap button {
+    width: initial;
+  }
+}
+
+.newsletterForm button:hover {
+  color: var(--color-white);
+  background-color: transparent;
+  cursor: pointer;
+}
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| Newsletter Form - End
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| Header Menu Mahube - Start
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+.headerMahube {
+  background-color: var(--color-white);
+}
+
+.headerMahube .headerMahubeSecondaryWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px 0;
+}
+
+.headerMahube .headerMahubeActionMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .headerMahube .headerMahubeActionMenu {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+}
+
+.headerMahube .headerTollFree {
+  display: none;
+}
+
+@media screen and (min-width: 991px) {
+  .headerMahube .headerTollFree {
+    display: block;
+    font-size: var(--font-size-small);
+    margin: 0 30px 0 0;
+    font-weight: 600;
+  }
+}
+
+.headerMahube .headerTollFree .Embed {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .headerMahube .headerTollFree .Embed {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+}
+
+
+.headerMahube .headerMahubeLogo {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  position: relative;
+}
+
+.headerMahube .headerMahubeLogo img {
+  max-height: 40px;
+}
+
+@media screen and (min-width: 767px) {
+  .headerMahube .headerMahubeLogo img {
+    max-height: 56px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .headerMahube .headerMahubeLogo img {
+    position: absolute;
+    top: 2px;
+    max-height: initial;
+  }
+}
+
+
+.headerMahube .headerMahubePrimary {
+  background-color: var(--color-grey-lightened);
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .headerMahube .headerMahubePrimary {
+    display: block;
+  }
+}
+
+.headerMahube .headerMahubePrimaryWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headerMahube .headerMahubePrimary .mainMenu {
+  margin: 0 40px 0 0;
+}
+
+.headerMahube .headerMahubePrimary .mainMenu .blockContents > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.headerMahube .headerMahubePrimary .mainMenu .blockContents > ul > li {
+  padding: 15px 0;
+  margin: 0 20px;
+  position: relative;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.headerMahube .headerMahubePrimary .mainMenu .blockContents > ul > li:first-child {
+  margin: 0 20px 0 0;
+}
+
+.headerMahube .headerMahubePrimary .mainMenu .blockContents > ul > li:last-child {
+  margin: 0 0 0 20px;
+}
+
+.headerMahube .headerMahubePrimary .mainMenu .blockContents > ul > li.has-children > a:after {
+  content: "\F0D7";
+  margin-left: 5px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+.headerMahube .headerMahubePrimary .mainMenu .blockContents a {
+  text-decoration: none;
+}
+
+.headerMahube .headerMahubePrimary .mainMenu .blockContents > ul > li > a {
+  font-weight: 600;
+}
+
+.headerMahube .headerMahubePrimary .mainMenu .blockContents > ul > li:hover > a {
+  color: var(--color-secondary);
+}
+
+.headerMahube .headerMahubePrimary .mainMenu .blockContents > ul > li > a > span {
+  -webkit-transition: none;
+  transition: none;
+}
+
+.headerMahube .headerMahubePrimary .mainMenu .blockContents > ul li ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding: 10px 0;
+  background-color: var(--color-primary);
+  -webkit-transform-origin: 50% 0;
+          transform-origin: 50% 0;
+  -webkit-transition: cubic-bezier(0.25, 0.46, 0.45, 0.94) 360ms;
+  transition: cubic-bezier(0.25, 0.46, 0.45, 0.94) 360ms;
+  -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -90deg);
+          transform: perspective(400px) rotate3d(1, 0, 0, -90deg);
+}
+
+.headerMahube .headerMahubePrimary .mainMenu .blockContents > ul li:hover > ul {
+  -webkit-transform: perspective(400px) rotate3d(0, 0, 0, 0);
+          transform: perspective(400px) rotate3d(0, 0, 0, 0);
+}
+
+.headerMahube .headerMahubePrimary .mainMenu ul li ul li {
+  position: relative;
+  min-width: 260px;
+  -webkit-transition: cubic-bezier(0.25, 0.46, 0.45, 0.94) 200ms;
+  transition: cubic-bezier(0.25, 0.46, 0.45, 0.94) 200ms;
+}
+
+.headerMahube .headerMahubePrimary .mainMenu ul li ul li > a {
+  display: block;
+  position: relative;
+  padding: 10px 25px;
+  color: var(--color-white);
+  white-space: inherit;
+  font-weight: 600;
+}
+
+.headerMahube .headerMahubePrimary .mainMenu ul li ul li:hover > a {
+  color: var(--color-secondary);
+}
+
+.headerMahube .headerMahubePrimary .mainMenu ul li ul li.has-children > a:after {
+  content: "\F0DA";
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.headerMahube .headerMahubePrimary .socialsAndSearch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headerMahube .headerMahubePrimary .socialsAndSearch .Gensoclinks {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 20px 0 0 !important;
+}
+
+.headerMahube .headerMahubePrimary .socialsAndSearch .Gensoclinks a {
+  margin: 0 20px;
+}
+
+.headerMahube .headerMahubePrimary .socialsAndSearch .Gensoclinks a:first-child {
+  margin: 0 20px 0 0;
+}
+
+.headerMahube .headerMahubePrimary .socialsAndSearch .Gensoclinks a:last-child {
+  margin: 0 0 0 20px;
+}
+
+.headerMahube .headerMahubePrimary .headerSearchBar {
+  position: relative;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headerMahube .headerMahubePrimary .searchBar {
+  display: none;
+  position: absolute;
+  top: calc(100% + 15px);
+  right: 0;
+  background-color: var(--color-secondary);
+  -webkit-box-shadow: 0 2px 3px rgb(0 0 0 / 15%);
+  box-shadow: 0 2px 3px rgb(0 0 0 / 15%);
+}
+
+@media screen and (max-width: 1200px) {
+  .headerMahube .headerMahubePrimary .searchBar {
+      position: fixed;
+      top: 120px;
+      left: 0;
+      margin: 0 20px;
+  }
+}
+
+.headerMahube .headerMahubePrimary .searchBtn {
+  font-size: 16px;
+  color: var(--color-primary);
+  margin: 0 0 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headerMahube .headerMahubePrimary .searchBtn:hover {
+  color: var(--color-secondary);
+}
+
+.headerMahube .headerMahubePrimary .searchBar.active {
+  display: block;
+}
+
+.headerMahube .headerMahubePrimary .searchBarWrap {
+  position: relative;
+  width: 100%;
+  min-width: 360px;
+  padding: 15px 20px;
+}
+
+.headerMahube .headerMahubePrimary .searchBarForm {
+  width: 100%;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(13,13,13,.3);
+  -webkit-transition: border-bottom-color .2s cubic-bezier(.25,.46,.45,.94);
+  transition: border-bottom-color .2s cubic-bezier(.25,.46,.45,.94);
+}
+
+.headerMahube .headerMahubePrimary .searchBarForm form {
+  position: relative;
+  padding-right: 36px;
+}
+
+.headerMahube .headerMahubePrimary .searchBarForm input {
+  width: 100%;
+  height: 42px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  color: #0d0d0d;
+  background-color: transparent;
+}
+
+.headerMahube .headerMahubePrimary .searchBarForm button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 42px;
+  color: #0d0d0d;
+}
+
+.headerMahube .headerMahubeActionMenuContent ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.headerMahube .headerMahubeActionMenuContent li {
+  margin: 0 15px;
+}
+
+.headerMahube .headerMahubeActionMenuContent li:first-child {
+  margin: 0 15px 0 0;
+}
+
+.headerMahube .headerMahubeActionMenuContent li:last-child {
+  margin: 0 0 0 15px;
+}
+
+.headerMahube .headerMahubeActionMenuContent a,
+.headerMahube .headerMahubeActionMenuContent button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: var(--font-size-small);
+  color: var(--color-black);
+  font-weight: 600;
+  text-decoration: none;
+  align-items: center;
+}
+
+.headerMahube .headerMahubeSecondary .headerMahubeActionMenuContent a:hover,
+.headerMahube .headerMahubeSecondary .headerMahubeActionMenuContent button:hover,
+.headerMahube .mobileNavigationMenu .headerMahubeActionMenuContent a:hover,
+.headerMahube .mobileNavigationMenu .headerMahubeActionMenuContent button:hover  {
+  color: var(--color-secondary);
+}
+
+.headerMahube .headerMahubeSecondary .headerMahubeActionMenuContent a,
+.headerMahube .headerMahubeSecondary .headerMahubeActionMenuContent button {
+  color: var(--color-black);
+}
+
+.headerMahube .mobileNavigationMenu .headerMahubeActionMenuContent a,
+.headerMahube .mobileNavigationMenu .headerMahubeActionMenuContent button {
+  color: var(--color-white);
+}
+
+.headerMahube .headerMahubeActionMenuContent img {
+  height: 30px;
+  margin: 0px 0 8px 0;
+}
+
+.headerMahube .headerMahubeActionMenuContent span {
+  white-space: nowrap;
+}
+
+.headerMahube .headerMahubeActionMenu .headerMahubeActionMenuContent {
+  margin: 0 25px 0 0;
+}
+
+@media screen and (min-width: 1200px) {
+  .headerMahube .headerMahubeActionMenu .headerMahubeActionMenuContent {
+    margin: 0;
+  }
+}
+
+.headerMahube .headerMahubeActionMenu .headerMahubeActionMenuContent li.login {
+  display: none;
+}
+
+@media screen and (min-width: 991px) {
+  .headerMahube .headerMahubeActionMenu .headerMahubeActionMenuContent li.login {
+    display: block;
+  }
+}
+
+.headerMahube .headerMahubeActionMenu .headerMahubeActionMenuContent li.donate {
+  display: none;
+}
+
+@media screen and (min-width: 767px) {
+  .headerMahube .headerMahubeActionMenu .headerMahubeActionMenuContent li.donate {
+    display: block;
+  }
+}
+
+.headerMahube .headerMahubeActionMenu .headerMahubeActionMenuContent li.getHelp {
+  display: none;
+}
+
+@media screen and (min-width: 767px) {
+  .headerMahube .headerMahubeActionMenu .headerMahubeActionMenuContent li.getHelp {
+    display: block;
+  }
+}
+
+.headerMahube .headerMahubeActionMenu .headerMahubeActionMenuContent li.translate {
+  display: none;
+}
+
+@media screen and (min-width: 767px) {
+  .headerMahube .headerMahubeActionMenu .headerMahubeActionMenuContent li.translate {
+    display: block;
+  }
+}
+
+.headerMahube .headerMahubeActionMenu .headerMahubeActionMenuContent li.translate .translateBar {
+  display: none;
+  position: absolute;
+  top: 100%;
+  background-color: var(--color-secondary);
+  -webkit-box-shadow: 0 2px 3px rgb(0 0 0 / 15%);
+  box-shadow: 0 2px 3px rgb(0 0 0 / 15%);
+  transform: translate(calc(-100% + 63px),0);
+}
+
+@media screen and (max-width: 1200px) {
+  .headerMahube .headerMahubeActionMenu .headerMahubeActionMenuContent li.translate .translateBar {
+      position: fixed;
+      top: 120px;
+      left: 50%;
+      transform: translate(-50%, 0);
+      width: calc(100% - 40px);
+      max-width: 450px;
+      right: initial;
+  }
+}
+
+.headerMahube .headerMahubeActionMenu .headerMahubeActionMenuContent li.translate .translateBar.active {
+  display: block;
+}
+
+.headerMahube .headerMahubeActionMenu .headerMahubeActionMenuContent li.translate .translateBarWrap {
+  position: relative;
+  width: 100%;
+  padding: 15px 20px;
+}
+
+.headerMahube .headerMahubeActionMenu .headerMahubeActionMenuContent li.translate .goog-te-combo {
+  font-size: var(--font-size-medium);
+  width: 100%;
+}
+
+.headerMahube .headerMahubeActionMenu .headerMahubeActionMenuContent li.translate .skiptranslate.goog-te-gadget:last-of-type {
+  display: none;
+}
+
+.headerMahube .headerMahubeActionMenu .headerMahubeActionMenuContent li.translate small {
+  font-size: var(--font-size-x-small);
+}
+
+.headerMahube .mobileNavigationMenuContent .actionBtnsAndSearch {
+  position: relative;
+}
+
+.headerMahube .mobileNavigationMenuContent .actionBtnsAndSearchWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 0 40px 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0 0 10px 0;
+}
+
+.headerMahube .mobileNavigationMenuContent .headerMahubeActionMenuContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 15px 0 0;
+}
+
+.headerMahube .mobileNavigationMenuContent .headerSearchBar {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+
+.headerMahube .mobileNavigationMenuContent .headerMahubeActionMenuContent li.translate .translateBar {
+  display: none;
+  position: absolute;
+  top: calc(100% + 15px);
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: var(--color-secondary);
+  -webkit-box-shadow: 0 2px 3px rgb(0 0 0 / 15%);
+  box-shadow: 0 2px 3px rgb(0 0 0 / 15%);
+  z-index: 2;
+  width: 100%;
+  max-width: 400px;
+}
+
+.headerMahube .mobileNavigationMenuContent .headerMahubeActionMenuContent li.translate .translateBar.active {
+  display: block;
+}
+
+.headerMahube .mobileNavigationMenuContent .headerMahubeActionMenuContent li.translate .translateBarWrap {
+  position: relative;
+  width: 100%;
+  padding: 15px 20px;
+}
+
+
+.headerMahube .mobileNavigationMenuContent .headerMahubeActionMenuContent li.translate .goog-te-combo {
+  font-size: var(--font-size-medium);
+  width: 100%;
+}
+
+
+.headerMahube .mobileNavigationMenuContent .searchBar {
+  display: none;
+  position: absolute;
+  top: calc(100% + 15px);
+  right: 0;
+  background-color: var(--color-secondary);
+  -webkit-box-shadow: 0 2px 3px rgb(0 0 0 / 15%);
+  box-shadow: 0 2px 3px rgb(0 0 0 / 15%);
+  z-index: 2;
+  width: 100%;
+}
+
+.headerMahube .mobileNavigationMenuContent .searchBtn {
+  color: var(--color-white);
+  margin: 0 0 0 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headerMahube .mobileNavigationMenuContent .searchBtn:hover {
+  color: var(--color-secondary);
+}
+
+.headerMahube .mobileNavigationMenuContent .searchBtn i {
+  display: block;
+  font-size: 23px;
+  margin: 0 0 8px 0;
+}
+
+.headerMahube .mobileNavigationMenuContent .searchBtn span {
+  display: block;
+  font-size: var(--font-size-small);
+  font-weight: 600;
+}
+
+.headerMahube .mobileNavigationMenuContent .searchBar.active {
+  display: block;
+}
+
+.headerMahube .mobileNavigationMenuContent .searchBarWrap {
+  position: relative;
+  width: 100%;
+  padding: 15px 20px;
+}
+
+.headerMahube .mobileNavigationMenuContent .searchBarForm {
+  width: 100%;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(13,13,13,.3);
+  -webkit-transition: border-bottom-color .2s cubic-bezier(.25,.46,.45,.94);
+  transition: border-bottom-color .2s cubic-bezier(.25,.46,.45,.94);
+}
+
+.headerMahube .mobileNavigationMenuContent .searchBarForm form {
+  position: relative;
+  padding-right: 36px;
+}
+
+.headerMahube .mobileNavigationMenuContent .searchBarForm input {
+  width: 100%;
+  height: 42px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  color: #0d0d0d;
+  background-color: transparent;
+}
+
+.headerMahube .mobileNavigationMenuContent .searchBarForm button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 42px;
+  color: #0d0d0d;
+}
+
+.headerMahube .headerMahubeSecondary .headerMobileMenu {
+  display: block;
+}
+
+@media screen and (min-width: 1200px) {
+  .headerMahube .headerMahubeSecondary .headerMobileMenu {
+    display: none;
+  }
+}
+
+
+.headerMahube .mobileNavigationMenu {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--color-primary);
+  z-index: 999999;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0.5s ease-out;
+  transition: visibility 0.5s ease-out;
+  overflow-y: auto;
+}
+
+.headerMahube .mobileNavigationMenu.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.headerMahube .mobileNavigationMenuHeader .burger .burgerLine,
+.headerMahube .mobileNavigationMenuHeader .burger .burgerSlash {
+  background-color: var(--color-white);
+}
+
+.headerMahube .mobileNavigationMenuHeader .burger:hover .burgerLine,
+.headerMahube .mobileNavigationMenuHeader .burger:hover .burgerSlash {
+  background-color: var(--color-white);
+}
+
+.headerMahube .mobileNavigationMenuHeader {
+  padding: 30px 0;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+@media screen and (min-width: 767px) {
+  .headerMahube .mobileNavigationMenuHeader {
+    height: 56px;
+  }
+}
+
+.headerMahube .mobileNavigationMenuContent .mainMenu {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.headerMahube .mobileNavigationMenuContent .mainMenu a {
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+.headerMahube .mobileNavigationMenuContent .mainMenu a:hover {
+  color: var(--color-secondary);
+}
+
+.headerMahube .mobileNavigationMenuContent .mainMenu > .Menu > .blockContents > ul > li {
+  padding: 0 0 5px 0;
+}
+
+.headerMahube .mobileNavigationMenuContent .mainMenu > .Menu > .blockContents > ul > li > a {
+  font-size: 32px;
+}
+
+.headerMahube .mobileNavigationMenuContent .mainMenu > .Menu > .blockContents > ul > li  ul::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 100%;
+  background-color: #DE741A;
+}
+
+.headerMahube .mobileNavigationMenuContent .mainMenu > .Menu > .blockContents > ul > li  ul li {
+  padding: 0 0 10px 0;
+}
+
+.headerMahube .mobileNavigationMenuContent .mainMenu > .Menu > .blockContents > ul > li  ul li:last-child {
+  padding: 0;
+}
+
+.headerMahube .mobileNavigationMenuContent .mainMenu > .Menu li > a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.headerMahube .mobileNavigationMenuContent .mainMenu > .Menu li.has-children > ul {
+  position: relative;
+  visibility: hidden;
+  height: 0;
+  padding: 0;
+  -webkit-transition: height 0.3s ease-out, visibility 0s ease-out;
+  transition: height 0.3s ease-out, visibility 0s ease-out;
+  opacity: 0;
+}
+
+.headerMahube .mobileNavigationMenuContent .mainMenu > .Menu li.has-children > a .expandCollapseBtn {
+  position: relative;
+  width: 21px;
+  height: 21px;
+}
+
+.headerMahube .mobileNavigationMenuContent .mainMenu > .Menu li.has-children > a img:last-child {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.headerMahube .mobileNavigationMenuContent .mainMenu > .Menu li.has-children > a img:first-child {
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.headerMahube .mobileNavigationMenuContent .mainMenu > .Menu li.has-children.active > a img[alt="Collapse Icon"] {
+  opacity: 1;
+}
+
+.headerMahube .mobileNavigationMenuContent .mainMenu > .Menu li.has-children.active > a img[alt="Expand Icon"] {
+  opacity: 0;
+}
+
+.headerMahube .mobileNavigationMenuContent .mainMenu > .Menu li.has-children.active > ul {
+  padding: 10px 15px;
+  height: initial;
+  visibility: visible;
+  opacity: 1;
+}
+
+.headerMahube .mobileNavigationMenuContent .mainMenu > .Menu > .blockContents > ul > li  ul a {
+  font-size: var(--font-size-medium);
+}
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| Header Menu Mahube - End
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| Fancy Title - Start
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+.fancyTitleMahube h2 {
+  text-align: center;
+  position: relative;
+  margin: 0;
+}
+
+.fancyTitleMahube h2::after {
+  content: "";
+  display: block;
+  height: 3px;
+  background-color: var(--color-grey-darkened);
+  margin: 30px auto 0 auto;
+  width: 80px;
+}
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| Fancy Title Mahube - End
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| Fancy Title - End
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| posts List Mahube Careers - Start
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+/* .postsListMahube .postsListWrap {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+@media screen and (min-width: 767px) {
+  .postsListMahube .postsListWrap {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .postsListMahube .postsListWrap {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+} */
+
+.postsListMahube .postsItemWrap {
+  position: relative;
+  height: 100%;
+  min-height: 440px;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+@media screen and (min-width: 767px) {
+  .postsListMahube article:hover .postsItemWrap {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+}
+
+.postsListMahube .slick-list .slick-active .postsItemWrap {
+  margin: 0;
+}
+
+@media screen and (min-width: 767px) {
+  .postsListMahube .slick-list .slick-active .postsItemWrap {
+    margin: 0 15px 0 0;
+  }
+
+  .postsListMahube .slick-list .slick-active ~ .slick-active .postsItemWrap {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .postsListMahube .slick-list .slick-active ~ .slick-active .postsItemWrap {
+    margin: 0 15px 0 0;
+  }
+
+  .postsListMahube .slick-list .slick-active ~ .slick-active ~ .slick-active .postsItemWrap {
+    margin: 0;
+  }
+}
+
+/* .postsListMahube article {
+  background-image: url('/');
+} */
+
+.postsListMahube article .postsItemWrap {
+  margin: 0 15px 0 0;
+}
+
+.postsListMahube .slick-prev,
+.postsListMahube .slick-next {
+  width: 40px;
+  background-color: var(--color-primary);
+  height: 40px;
+}
+
+.postsListMahube .slick-prev:hover,
+.postsListMahube .slick-next:hover {
+  background-color: transparent;
+}
+
+.postsListMahube .slick-prev {
+  left: -50px;
+}
+
+.postsListMahube .slick-next {
+  right: -50px;
+}
+
+.postsListMahube .slick-prev::before,
+.postsListMahube .slick-next::before {
+  content: none;
+}
+
+.postsListMahube .slick-prev svg,
+.postsListMahube .slick-next svg {
+  width: 20px;
+  height: 20px;
+}
+
+.postsListMahube .slick-prev path,
+.postsListMahube .slick-next path {
+  stroke: var(--color-white);
+}
+
+.postsListMahube .slick-prev:hover path,
+.postsListMahube .slick-next:hover path {
+  stroke: var(--color-primary);
+}
+
+
+.postsListMahube article .postsItemTitle a {
+  text-decoration: none;
+}
+
+.postsListMahube article .postsItemTitle a,
+.postsListMahube article .postsItemPreview,
+.postsListMahube article .postsItemBtn {
+  color: var(--color-white);
+}
+
+.postsListMahube .postsItemBtn:hover  {
+  color: var(--color-primary);
+}
+
+.postsListMahube .postsItemBody {
+  padding: 30px 20px;
+  position: absolute;
+  bottom: 0;
+}
+
+.postsListMahube .postsItemTitle {
+  font-size: var(--font-size-x-large);
+  margin: 0 0 20px 0;
+}
+
+.postsListMahube .postsItemOverlay {
+  background-color: black;
+  opacity: 0.4;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  position: absolute;
+}
+
+.postsListMahube .postsItemPreview,
+.postsListMahube .postsItemBtn {
+  font-size: var(--font-size-small);
+}
+
+.postsListMahube .postsItemBtn {
+  text-decoration: underline;
+}
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| posts List Mahube Careers - End
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| posts List Mahube Careers Two - Start
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+.postsListMahubeTwo {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.postsListMahubeTwo .sliderHideLeft {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0 8px 0 0;
+}
+
+.postsListMahubeTwo .sliderHideRight {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 8px;
+}
+
+.postsListMahubeTwo .sliderHideLeft,
+.postsListMahubeTwo .sliderHideRight {
+  flex-grow: 1;
+  position: relative;
+  z-index: 10;
+  background-color: white;
+}
+
+.postsListMahubeTwo .postsListWrap {
+  max-width: 500px;
+  width: calc(100% - 16px);
+  margin: 0 auto;
+  padding: 60px 0 30px 0;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  .postsListMahubeTwo .postsListWrap {
+    max-width: 680px;
+    width: calc(100% - 56px);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .postsListMahubeTwo .postsListWrap {
+    max-width: 920px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .postsListMahubeTwo .postsListWrap {
+    max-width: 1100px;
+  }
+}
+
+.postsListMahubeTwo .slick-list {
+  overflow: visible;
+  margin: 0 0 20px 0;
+}
+
+.postsListMahubeTwo .slick-prev-custom,
+.postsListMahubeTwo .slick-next-custom {
+  width: 40px;
+  background-color: var(--color-primary);
+  height: 40px;
+  display: none !important;
+}
+
+@media screen and (min-width: 767px) {
+  .postsListMahubeTwo .slick-prev-custom,
+  .postsListMahubeTwo .slick-next-custom  {
+    display: block !important;
+  }
+}
+
+.postsListMahubeTwo .slick-prev-custom:hover,
+.postsListMahubeTwo .slick-next-custom:hover {
+  background-color: transparent;
+}
+
+.postsListMahubeTwo .slick-prev-custom svg,
+.postsListMahubeTwo .slick-next-custom svg {
+  width: 20px;
+  height: 20px;
+}
+
+.postsListMahubeTwo .slick-prev-custom path,
+.postsListMahubeTwo .slick-next-custom path {
+  stroke: var(--color-white);
+}
+
+.postsListMahubeTwo .slick-prev-custom:hover path,
+.postsListMahubeTwo .slick-next-custom:hover path {
+  stroke: var(--color-primary);
+}
+
+.postsListMahubeTwo article {
+  min-height: 440px;
+  height: 100%;
+  margin: 0 8px;
+}
+
+.postsListMahubeTwo .postsImageLogo {
+  width: 100px;
+  position: absolute;
+  top: 0;
+  margin: 50px 0 0 0;
+  left: calc(50% - (100px)/2);
+  z-index: -2;
+}
+
+.postsListMahubeTwo .postsBackgroundImage {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.postsListMahubeTwo .blogs-post-crop-icon {
+  display: none;
+}
+
+.postsListMahubeTwo article .postsItemWrap {
+  position: relative;
+  height: inherit;
+  min-height: inherit;
+  width: inherit;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+@media screen and (min-width: 767px) {
+  .postsListMahubeTwo article:hover .postsItemWrap {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+}
+
+.postsListMahubeTwo article .postsItemTitle a {
+  text-decoration: none;
+}
+
+.postsListMahubeTwo article .postsItemTitle a,
+.postsListMahubeTwo article .postsItemPreview,
+.postsListMahubeTwo article .postsItemBtn {
+  color: var(--color-white);
+}
+
+.postsListMahubeTwo .postsItemBtn:hover  {
+  color: var(--color-primary);
+}
+
+.postsListMahubeTwo .postsItemBody {
+  padding: 30px 20px;
+  position: absolute;
+  bottom: 0;
+}
+
+.postsListMahubeTwo .postsItemTitle {
+  font-size: var(--font-size-x-large);
+  margin: 0 0 20px 0;
+}
+
+.postsListMahubeTwo .postsItemOverlay {
+  background-color: black;
+  opacity: 0.4;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  position: absolute;
+}
+
+.postsListMahubeTwo .postsItemPreview,
+.postsListMahubeTwo .postsItemBtn {
+  font-size: var(--font-size-small);
+}
+
+.postsListMahubeTwo .postsItemBtn {
+  text-decoration: underline;
+}
+
+.postsListMahubeTwo .slick-dots {
+  bottom: 15px;
+}
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| posts List Mahube Careers Two - End
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| Images Our Approach Mahube - Start
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+@media screen and (min-width: 1200px) {
+  .imageOurApproachMahube {
+    min-height: 650px;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.imageOurApproachMahube .imageOurApproachMahubeImg {
+  height: 320px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: brightness(0.5);
+          filter: brightness(0.5);
+}
+
+@media screen and (min-width: 1200px) {
+  .imageOurApproachMahube .imageOurApproachMahubeImg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    top: 0;
+  }
+}
+
+.imageOurApproachMahube .contentArea {
+  width: 100%;
+}
+
+.imageOurApproachMahube .contentAreaWrap {
+  padding: 60px 0;
+}
+@media screen and (min-width: 767px) {
+  .imageOurApproachMahube .contentAreaWrap {
+    padding: 60px 45px;
+  }
+}
+
+.imageOurApproachMahube .imageOurApproachMahubeMain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media screen and (min-width: 991px) {
+  .imageOurApproachMahube .imageOurApproachMahubeMain {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.imageOurApproachMahube .imageOurApproachMahubeMain h2 {
+  margin: 0 0 40px 0;
+  color: var(--color-primary);
+  position: relative;
+}
+
+.imageOurApproachMahube .imageOurApproachMahubeContent {
+  width: 100%;
+  margin: 0 0 30px 0;
+}
+
+@media screen and (min-width: 991px) {
+  .imageOurApproachMahube .imageOurApproachMahubeContent {
+    margin: 0 30px 0 0;
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .imageOurApproachMahube .imageOurApproachMahubeContent {
+    width: 35%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .imageOurApproachMahube .imageOurApproachMahubeMain h2 {
+    color: var(--color-white);
+  }
+}
+
+.imageOurApproachMahube .imageOurApproachMahubeDescription {
+  margin: 0 0 40px 0;
+  color: var(--color-black);
+}
+
+@media screen and (min-width: 1200px) {
+  .imageOurApproachMahube .imageOurApproachMahubeDescription {
+    color: var(--color-white);
+  }
+}
+
+.imageOurApproachMahube .imageOurApproachMahubeBtn .btnOutline.btnWhite p > a {
+  background-color: var(--color-primary);
+}
+
+.imageOurApproachMahube .imageOurApproachMahubeBtn .btnOutline.btnWhite p > a:hover {
+  background-color: var(--color-white);
+  color: var(--color-primary);
+}
+
+@media screen and (min-width: 1200px) {
+  .imageOurApproachMahube .imageOurApproachMahubeBtn .btnOutline.btnWhite p > a {
+    background-color: transparent;
+    border: 1px solid var(--color-white);
+  }
+}
+
+.imageOurApproachMahube .imageOurApproachMahubeIcons {
+  width: 100%;
+}
+
+@media screen and (min-width: 991px) {
+  .imageOurApproachMahube .imageOurApproachMahubeIcons {
+    position: relative;
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .imageOurApproachMahube .imageOurApproachMahubeDescription {
+    color: var(--color-white);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .imageOurApproachMahube .imageOurApproachMahubeIcons {
+    width: 400px;
+  }
+}
+
+.imageOurApproachMahube .imageOurApproachMahubeIconsWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  row-gap: 20px;
+  -webkit-column-gap: 30px;
+     -moz-column-gap: 30px;
+          column-gap: 30px;
+  width: 100%;
+}
+
+@media screen and (min-width: 430px) {
+  .imageOurApproachMahube .imageOurApproachMahubeIconsWrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .imageOurApproachMahube .imageOurApproachMahubeIconsWrap {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .imageOurApproachMahube .imageOurApproachMahubeIconsWrap {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.imageOurApproachMahube .icon {
+  width: 180px;
+  height: 180px;
+  background-color: var(--color-grey-lightened);
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  justify-self: center;
+  text-decoration: none;
+}
+
+.imageOurApproachMahube .icon:hover {
+  background-color: var(--color-primary);
+}
+
+.imageOurApproachMahube .icon svg {
+  margin: 0 0 15px 0;
+}
+
+.imageOurApproachMahube .icon svg path,
+.imageOurApproachMahube .icon svg ellipse {
+  fill: var(--color-black);
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.imageOurApproachMahube .icon:hover path,
+.imageOurApproachMahube .icon:hover ellipse {
+  fill: var(--color-white);
+}
+
+.imageOurApproachMahube .icon h3 {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  color: var(--color-black);
+  font-size: var(--font-size-small);
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.imageOurApproachMahube .icon:hover h3 {
+  color: var(--color-white);
+}
+
+@media screen and (min-width: 991px) {
+  .imageOurApproachMahube .icon1 {
+    grid-column: 2;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .imageOurApproachMahube .imageOurApproachMahubeBtn .btn p {
+    margin: 0;
+  }
+}
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| Images Our Approach Mahube - End
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| Content Area Light Gray - Start
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+.contentArea.lightGray {
+  background-color: var(--color-grey-lightened);
+}
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| Content Area Light Gray - End
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| 3 Column Mahube - Start
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+.threeColMahube {
+  display: grid;
+  grid-template-columns: 1fr;
+  -webkit-column-gap: 30px;
+     -moz-column-gap: 30px;
+          column-gap: 30px;
+  row-gap: 40px;
+}
+
+@media screen and (min-width: 430px) {
+  .threeColMahube {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.threeColMahube .threeColItem {
+  justify-self: center;
+}
+
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| 3 Column Mahube - End
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| 3 Column Mahube Two - Start
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+.threeColumnMahubeTwo > div {
+  display: grid !important;
+  grid-template-columns: 1fr;
+  -webkit-column-gap: 30px;
+     -moz-column-gap: 30px;
+          column-gap: 30px;
+  row-gap: 30px;
+}
+
+@media screen and (min-width: 797px) {
+  .threeColumnMahubeTwo > div {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .threeColumnMahubeTwo > div {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| 3 Column Mahube Two - End
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| 4 Column Mahube - Start
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+.fourColumnMahube > div {
+  display: grid !important;
+  grid-template-columns: 1fr;
+  -webkit-column-gap: 30px;
+     -moz-column-gap: 30px;
+          column-gap: 30px;
+  row-gap: 30px;
+}
+
+@media screen and (min-width: 797px) {
+  .fourColumnMahube > div {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .fourColumnMahube > div {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| 4 Column Mahube - End
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| SVG Icon Block - Start
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+.svgIconBlockMahube {
+  cursor: pointer;
+}
+
+.svgIconBlockMahube .iconBlockImg {
+  margin: 0 auto 30px auto;
+  max-height: 70px;
+}
+
+.svgIconBlockMahube .iconBlockTitle {
+  font-size: var(--font-size-large);
+  margin: 0;
+  text-align: center;
+  color: var(--color-black);
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.svgIconBlockMahube:hover .iconBlockTitle {
+  color: var(--color-primary);
+}
+
+.svgIconBlockMahube .iconBlockImg a {
+  position: relative;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  height: 70px;
+  width: 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.svgIconBlockMahube img {
+  position: absolute;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.svgIconBlockMahube img.non-hovered {
+  visibility: visible;
+}
+
+.svgIconBlockMahube:hover img.non-hovered {
+  visibility: hidden;
+}
+
+.svgIconBlockMahube:hover img.hovered {
+  visibility: visible;
+}
+
+.svgIconBlockMahube img.hovered {
+  visibility: hidden;
+}
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| SVG Icon Block - End
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+/*!
+ |-----------------------------------------------------------------------------------------
+ |
+ |
+ | Slider Mahube - Start
+ |
+ |
+ |-----------------------------------------------------------------------------------------
+*/
+.sliderMahube .sliderItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: relative;
+  height: 670px;
+}
+
+.sliderMahube .sliderBtn.btn p {
+  margin: 0;
+}
+
+.sliderMahube .sliderImg,
+.sliderMahube .sliderOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.sliderMahube .sliderImg {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.sliderMahube .sliderInner {
+  position: relative;
+  text-align: left;
+  max-width: 670px;
+  margin: 0 0 70px 0;
+}
+.sliderMahube .sliderTitle {
+  color: var(--color-white);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+.sliderMahube .sliderDescription {
+  color: var(--color-white);
+}
+.sliderMahube .sliderDescription li::before {
+  color: var(--color-grey-lightened);
+}
+.sliderMahube .sliderDescription p,
+.sliderMahube .sliderDescription li {
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.sliderMahube .slick-prev,
+.sliderMahube .slick-next {
+  z-index: 1;
+  width: 36px;
+  height: 36px;
+  top: 60%;
+}
+
+@media screen and (max-width:991px) {
+  .sliderMahube .slick-prev,
+  .sliderMahube .slick-next {
+    z-index: 1;
+    width: 36px;
+    height: 36px;
+    top: 50% !important;
+  }
+}
+.sliderMahube .slick-prev svg,
+.sliderMahube .slick-next svg {
+  width: 36px;
+  height: 36px;
+}
+.sliderMahube .slick-prev svg path,
+.sliderMahube .slick-next svg path {
+  fill: none;
+  stroke: var(--color-white);
+}
+.sliderMahube .slick-prev.slick-disabled,
+.sliderMahube .slick-next.slick-disabled {
+  cursor: not-allowed;
+}
+.sliderMahube .slick-prev.slick-disabled svg path,
+.sliderMahube .slick-next.slick-disabled svg path {
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.5);
+}
+.sliderMahube .slick-prev:before,
+.sliderMahube .slick-next:before {
+  display: none;
+}
+.sliderMahube .slick-prev {
+  left: 36px;
+}
+.sliderMahube .slick-next {
+  right: 36px;
+}
+
+.sliderMahube ul.slick-dots {
+  top: 60%;
+  right: 50px;
+  bottom: auto;
+  width: auto;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.sliderMahube ul.slick-dots li {
+  display: block;
+  margin: 0;
+}
+.sliderMahube ul.slick-dots li:not(:last-of-type) {
+  margin-bottom: 20px;
+}
+.sliderMahube.dots-style-1 ul.slick-dots li button:before {
+  background-color: var(--color-white);
+}
+.sliderMahube.dots-style-1 ul.slick-dots li:hover button, .sliderMahube.dots-style-1 ul.slick-dots li.slick-active button {
+  border-color: var(--color-white);
+}
+.sliderMahube.dots-style-2 ul.slick-dots li button:before, .sliderMahube.dots-style-2 ul.slick-dots li button:after {
+  border-color: var(--color-white);
+}
+.sliderMahube.dots-style-2 ul.slick-dots li:hover button:after, .sliderMahube.dots-style-2 ul.slick-dots li.slick-active button:after {
+  border-color: var(--color-white);
+  background-color: var(--color-white);
+}
+.sliderMahube.dots-style-3 ul.slick-dots li:after {
+  background-color: var(--color-white);
+}
+.sliderMahube.dots-style-3 ul.slick-dots li button {
+  color: var(--color-white);
+}
+
+.sliderMahube .sliderImg {
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  -webkit-transition: ease-in-out 600ms;
+  transition: ease-in-out 600ms;
+  -webkit-transition-delay: 600ms;
+          transition-delay: 600ms;
+}
+.sliderMahube .sliderTitle,
+.sliderMahube .sliderDescription,
+.sliderMahube .sliderBtn {
+  opacity: 0;
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px);
+  -webkit-transition: ease-in-out 360ms;
+  transition: ease-in-out 360ms;
+}
+.sliderMahube .slick-current .sliderImg {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-transition-delay: 100ms;
+          transition-delay: 100ms;
+}
+.sliderMahube .slick-current .sliderTitle,
+.sliderMahube .slick-current .sliderDescription,
+.sliderMahube .slick-current .sliderBtn {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+.sliderMahube .slick-current .sliderTitle {
+  -webkit-transition-delay: 300ms;
+          transition-delay: 300ms;
+  font-size: var(--font-size-xxxxx-large);
+}
+
+@media screen and (max-width: 991px) {
+  .sliderMahube .slick-current .sliderTitle {
+    font-size: var(--font-size-xxx-large);
+  }
+}
+.sliderMahube .slick-current .sliderDescription {
+  -webkit-transition-delay: 500ms;
+          transition-delay: 500ms;
+}
+.sliderMahube .slick-current .sliderBtn {
+  -webkit-transition-delay: 700ms;
+          transition-delay: 700ms;
+}
+
+@media (min-width: 992px) {
+  .sliderMahube .sliderTitle {
+    font-size: 55px;
+    line-height: 1.1;
+  }
+  .sliderMahube .slick-prev,
+.sliderMahube .slick-next {
+    left: 50px;
+    right: auto;
+    width: 20px;
+    height: 20px;
+  }
+  .sliderMahube .slick-prev svg,
+.sliderMahube .slick-next svg {
+    width: 20px;
+    height: 20px;
+  }
+  .sliderMahube .slick-prev svg path,
+.sliderMahube .slick-next svg path {
+    stroke-width: 2;
+  }
+  .sliderMahube .slick-prev {
+    -webkit-transform: rotate(90deg) translateX(calc(-50% - 20px));
+            transform: rotate(90deg) translateX(calc(-50% - 20px));
+  }
+  .is-ie .sliderMahube .slick-prev {
+    -webkit-transform: rotate(90deg) translateX(-50%) translateX(-20px);
+            transform: rotate(90deg) translateX(-50%) translateX(-20px);
+  }
+  .sliderMahube .slick-next {
+    -webkit-transform: rotate(90deg) translateX(calc(-50% + 20px));
+            transform: rotate(90deg) translateX(calc(-50% + 20px));
+  }
+  .is-ie .sliderMahube .slick-next {
+    -webkit-transform: rotate(90deg) translateX(-50%) translateX(20px);
+            transform: rotate(90deg) translateX(-50%) translateX(20px);
+  }
+}
+
+@media (max-width: 991px) {
+  .sliderMahube .sliderItem {
+    height: 480px;
+  }
+  .sliderMahube .sliderInner {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .sliderMahube .sliderTitle,
+  .sliderMahube .sliderDescription p {
+    margin-bottom: 15px;
+  }
+  .sliderMahube .sliderBtn.btn p a {
+    font-size: 12px;
+    padding: 5px 15px;
+  }
+  .sliderMahube .slick-prev,
+.sliderMahube .slick-next {
+    top: 45%;
+    width: 20px;
+    height: 36px;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  .sliderMahube .slick-prev svg,
+.sliderMahube .slick-next svg {
+    width: 20px;
+    height: 36px;
+  }
+  .sliderMahube .slick-prev svg path,
+.sliderMahube .slick-next svg path {
+    stroke-width: 2px;
+  }
+  .sliderMahube .slick-prev {
+    left: 0;
+  }
+  .sliderMahube .slick-next {
+    right: 0;
+  }
+  .sliderMahube .slick-dots {
+    display: none !important;
+  }
+}
+/*!
+ |-----------------------------------------------------------------------------------------
+ |
+ |
+ | Slider Mahube - End
+ |
+ |
+ |-----------------------------------------------------------------------------------------
+*/
+/*!
+ |-----------------------------------------------------------------------------------------
+ |
+ |
+ | Layout Map Mahube - Start
+ |
+ |
+ |-----------------------------------------------------------------------------------------
+*/
+.layoutMapMahube {
+  width: 100%;
+}
+
+.layoutMapMahube .clickableArea {
+  cursor: pointer;
+}
+
+.layoutMapMahube .clickableArea .mapArea,
+.layoutMapMahube .clickableArea .text {
+  -webkit-transition: all 0.3 ease-out;
+  transition: all 0.3 ease-out;
+}
+
+.layoutMapMahube .clickableArea:hover .mapArea {
+  fill: var(--color-primary);
+}
+
+.layoutMapMahube .clickableArea:hover .text {
+  fill: var(--color-white);
+}
+/*!
+ |-----------------------------------------------------------------------------------------
+ |
+ |
+ | Layout Map Mahube - End
+ |
+ |
+ |-----------------------------------------------------------------------------------------
+*/
+/*!
+ |-----------------------------------------------------------------------------------------
+ |
+ |
+ | Layout Map Two Mahube - Start
+ |
+ |
+ |-----------------------------------------------------------------------------------------
+*/
+.layoutMapTwo {
+  margin: 0 0 30px 0;
+}
+
+@media screen and (min-width: 991px) {
+  .layoutMapTwo {
+    margin: 0;
+  }
+}
+
+
+.layoutMapTwo .layoutMapHeader {
+  padding: 30px 0;
+  background-color: var(--color-primary);
+}
+
+.layoutMapTwo .layoutMapHeader * {
+  color: var(--color-white);
+}
+
+.layoutMapTwo .layoutMapHeader > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media screen and (min-width: 991px) {
+  .layoutMapTwo .layoutMapHeader > div {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+}
+
+.layoutMapTwo .layoutMapHeader > div h4 {
+  margin: 0 0 10px 0;
+}
+
+@media screen and (min-width: 991px) {
+  .layoutMapTwo .layoutMapHeader > div h4 {
+    margin: 0;
+  }
+}
+
+.layoutMapTwo .layoutMapMain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media screen and (min-width: 991px) {
+  .layoutMapTwo .layoutMapMain {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.layoutMapTwo .mapArea {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin: 0 0 20px 0;
+}
+
+@media screen and (min-width: 991px) {
+  .layoutMapTwo .mapArea {
+    margin: 0;
+  }
+}
+
+.layoutMapTwo .mapAreaWrap {
+  padding: 280px 0 0 0;
+  margin: 0 auto;
+  width: 100%;
+}
+
+@media screen and (min-width: 991px) {
+  .layoutMapTwo .mapAreaWrap {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    margin: 0;
+    max-width: 100%;
+    padding: 400px 0 0 0;
+  }
+}
+
+@media screen and (min-width: 1550px) {
+  .layoutMapTwo .mapAreaWrap {
+    padding: 500px 0 0 0;
+  }
+}
+
+
+.layoutMapTwo .locationsList {
+  padding: 0 15px;
+}
+
+@media screen and (min-width: 991px) {
+  .layoutMapTwo .locationsList {
+    padding: 0;
+  }
+
+}
+
+.layoutMapTwo .locationsListWrap {
+  width: 100%;
+  height: 400px;
+  background-color: var(--color-white);
+  overflow-y: auto;
+  margin: 0 auto;
+}
+
+@media (min-width: 576px) {
+  .layoutMapTwo .locationsListWrap {
+    max-width: 510px;
+  }
+}
+
+@media (min-width: 768px) {
+  .layoutMapTwo .locationsListWrap {
+    max-width: 690px;
+  }
+}
+
+@media (min-width: 991px) {
+  .layoutMapTwo .locationsListWrap {
+    max-width: 960px;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .layoutMapTwo .locationsListWrap {
+    width: 400px;
+    height: 400px;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1550px) {
+  .layoutMapTwo .locationsListWrap {
+    width: 550px;
+    height: 500px;
+  }
+}
+
+.layoutMapTwo .locationsItem {
+  padding: 30px 20px;
+  border-bottom: 1px solid var(--color-grey);
+}
+
+.layoutMapTwo .locationsItem:last-child {
+  border-bottom: none;
+}
+
+
+@media screen and (min-width: 991px) {
+  .layoutMapTwo .locationsItem {
+    padding: 20px 40px;
+  }
+}
+
+.layoutMapTwo .locationsItemTitle {
+  margin: 0 0 15px 0;
+}
+
+.layoutMapTwo .locationsItem .locationsItemDescription {
+  margin: 0 0 30px 0;
+}
+
+.layoutMapTwo .locationsItem .locationsItemDescription .blockContents p {
+  margin: 0 0 10px 0;
+}
+
+.layoutMapTwo .locationsItem .locationsItemDescription .blockContents p:last-child {
+  margin: 0;
+}
+
+.layoutMapTwo .locationsItem .locationsItemBtn {
+  text-decoration: underline;
+}
+
+.layoutMapTwo .locationsItem .locationsItemBtn:hover {
+  color: var(--color-primary);
+}
+
+#mainArea .mwPageArea .layoutMapTwo .adminOnly {
+  display: none;
+}
+
+#mainArea .mwPageArea.liveEdArea .layoutMapTwo .adminOnly {
+  display: block;
+  padding: 10px;
+  border: 1px dashed red;
+  background-color: rgba(255,0,0,0.1);
+  margin: 0 0 30px 0;
+}
+/*!
+ |-----------------------------------------------------------------------------------------
+ |
+ |
+ | Layout Map Two Mahube - End
+ |
+ |
+ |-----------------------------------------------------------------------------------------
+*/
+/*!
+ |-----------------------------------------------------------------------------------------
+ |
+ |
+ | Header Area - Start
+ |
+ |
+ |-----------------------------------------------------------------------------------------
+*/
+.headerArea {
+  position: sticky;
+  top: 0;
+}
+/*!
+ |-----------------------------------------------------------------------------------------
+ |
+ |
+ | Header Area - End
+ |
+ |
+ |-----------------------------------------------------------------------------------------
+*/
+/*!
+ |-----------------------------------------------------------------------------------------
+ |
+ |
+ | Toll Free Link - Start
+ |
+ |
+ |-----------------------------------------------------------------------------------------
+*/
+.tollFreeLink {
+  color: var(--color-black);
+  text-decoration: none;
+}
+
+.tollFreeLink:hover {
+  color: var(--color-secondary);
+}
+/*!
+ |-----------------------------------------------------------------------------------------
+ |
+ |
+ | Toll Free Link - End
+ |
+ |
+ |-----------------------------------------------------------------------------------------
+*/
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| Image Block with Icon - Start
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+.imageBlockWithIconMahube {
+  position: relative;
+}
+
+.imageBlockWithIconMahube .image,
+.imageBlockWithIconMahube .image .File,
+.imageBlockWithIconMahube .image .File .blockContents,
+.imageBlockWithIconMahube .image .File .blockContents > div {
+  min-height: 240px;
+}
+
+.imageBlockWithIconMahube .image .File .blockContents > div {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.imageBlockWithIconMahube .icon {
+  width: 92px;
+  height: 92px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: calc(-92px/2);
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 3;
+}
+
+.imageBlockWithIconMahube .icon,
+.imageBlockWithIconMahube .icon .File,
+.imageBlockWithIconMahube .icon .File .blockContents,
+.imageBlockWithIconMahube .icon .File .blockContents > div {
+  width: 92px;
+  height: 92px;
+}
+
+.imageBlockWithIconMahube .icon .File .blockContents > div {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| Image Block with Icon - End
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| 3 Column Mahube - Start
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+.threeColMahubeThree {
+  display: grid;
+  grid-template-columns: 1fr;
+  -webkit-column-gap: 30px;
+     -moz-column-gap: 30px;
+          column-gap: 30px;
+  row-gap: 60px;
+}
+
+@media screen and (min-width: 767px) {
+  .threeColMahubeThree {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .threeColMahubeThree {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.threeColMahubeThree .threeColItem {
+  justify-self: center;
+  width: 100%;
+}
+
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| 3 Column Mahube - End
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| Content Block Mahube - Start
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+.titleBlockWithColorBox .contentBlockTitleMain {
+  display: flex;
+  margin: 0 0 40px 0;
+}
+
+.titleBlockWithColorBox .contentBlockTitle {
+  margin: 0 10px 0 0;
+}
+
+.titleBlockWithColorBox .colorBlock {
+  display: flex;
+  align-items: center;
+}
+
+.titleBlockWithColorBox .colorBlock span {
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.titleBlockWithColorBox .colorBlock.blue span {
+  background-color: #292974;
+}
+
+.titleBlockWithColorBox .colorBlock.pink span {
+  background-color: #ffc0cb;
+}
+
+.titleBlockWithColorBox .colorBlock.yellow span {
+  background-color: #e7a708;
+}
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| Content Block Mahube - End
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| Two Col Logos Mahube - Start
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+.twoColLogosMahube {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+@media screen and (min-width: 767px) {
+  .twoColLogosMahube {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| Two Col Logos Mahube - End
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| Logo Carousel Mahube - Start
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+.logoCarouselMahube .carouselWrap.slick-dotted {
+  position: static;
+}
+.logoCarouselMahube .carouselItem {
+  margin: 10px 20px;
+  transition: opacity ease-in-out 1s;
+  height: 93px;
+}
+.logoCarouselMahube .carouselImg {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: white;
+}
+
+.logoCarouselMahube .slick-prev,
+.logoCarouselMahube .slick-next {
+  z-index: 1;
+  width: 20px;
+  height: 20px;
+}
+.logoCarouselMahube .slick-prev svg,
+.logoCarouselMahube .slick-next svg {
+  width: 100%;
+  height: 100%;
+}
+.logoCarouselMahube .slick-prev svg path,
+.logoCarouselMahube .slick-next svg path {
+  fill: none;
+  stroke: var(--color-primary);
+  stroke-width: 2;
+  transition: all 0.2s linear;
+}
+.logoCarouselMahube .slick-prev.slick-disabled,
+.logoCarouselMahube .slick-next.slick-disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.logoCarouselMahube .slick-prev:before,
+.logoCarouselMahube .slick-next:before {
+  display: none;
+}
+.logoCarouselMahube .slick-prev:hover svg path,
+.logoCarouselMahube .slick-next:hover svg path {
+  stroke: var(--color-secondary);
+}
+.logoCarouselMahube .slick-prev,
+.logoCarouselMahube .slick-next {
+
+}
+
+@media screen and (max-width: 615px) {
+  .logoCarouselMahube .slick-prev {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 615px) {
+  .logoCarouselMahube .slick-next {
+    display: none !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .logoCarouselMahube .carouselItem {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+@media (max-width: 575px) {
+  .logoCarouselMahube .carouselItem {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+.logoCarouselMahube.dots-style-1 .slick-dots {
+  margin: 15px 0 0 0;
+  position: static;
+}
+
+.logoCarouselMahube.dots-style-1 .slick-dots button {
+  border: none;
+}
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| Logo Carousel Mahube - End
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| Content Area Mahube - Start
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+
+.contentAreaMahube .contentAreaWrap {
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 30px;
+}
+
+.contentAreaMahube .Content .blockContents *:last-child {
+  margin: 0;
+}
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| Content Area Mahube - End
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| Content Block With Icon Mahube - Start
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+
+.contentBlockWithIcon .contentAreaWrap {
+  padding-top: 80px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 30px;
+}
+
+.contentBlockWithIcon .icon {
+  width: 92px;
+  height: 92px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: calc(-92px/2);
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 3;
+}
+
+.contentBlockWithIcon .icon,
+.contentBlockWithIcon .icon .File,
+.contentBlockWithIcon .icon .File .blockContents,
+.contentBlockWithIcon .icon .File .blockContents > div {
+  width: 92px;
+  height: 92px;
+}
+
+.contentBlockWithIcon .icon .File .blockContents > div {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contentBlockWithIcon .Content .blockContents *:last-child {
+  margin: 0;
+}
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| Content Block With Icon Mahube - end
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| Content Block With Icon Mahube Two - Start
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+.contentBlockWithIconMahubeTwo {
+  background-color: var(--color-grey-lightened);
+}
+
+.contentBlockWithIconMahubeTwo .contentAreaWrap {
+  padding-top: 70px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 30px;
+}
+
+@media screen and (min-width: 767px) {
+  .contentBlockWithIconMahubeTwo .contentAreaWrap {
+    min-height: 340px;
+  }
+}
+
+.contentBlockWithIconMahubeTwo .icon {
+  width: 92px;
+  height: 92px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: calc(-92px/2);
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 3;
+}
+
+.contentBlockWithIconMahubeTwo .icon,
+.contentBlockWithIconMahubeTwo .icon .File,
+.contentBlockWithIconMahubeTwo .icon .File .blockContents,
+.contentBlockWithIconMahubeTwo .icon .File .blockContents > div {
+  width: 92px;
+  height: 92px;
+}
+
+.contentBlockWithIconMahubeTwo .icon .File .blockContents > div {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contentBlockWithIconMahubeTwo .Content .blockContents *:last-child {
+  margin: 0;
+}
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| Content Block With Icon Mahube Two - end
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| Image Block Same Height - Start
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+.imageBlockSameHeight {
+  height: 300px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (min-width: 767px) {
+  .imageBlockSameHeight {
+    height: 190px;
+  }
+}
+
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| Image Block Same Height - End
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| Content Block No Title Mahube - Start
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+.contentBlockNoTitleMahube {
+  background-color: var(--color-grey-lightened);
+}
+
+.contentBlockNoTitleMahube .contentBlockNoTitleMahubeWrap {
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 30px;
+}
+
+.contentBlockNoTitleMahube .Content .blockContents *:last-child {
+  margin: 0;
+}
+
+.contentBlockNoTitleMahube .btn p {
+  margin: 0;
+}
+
+.contentBlockNoTitleMahube.smallP .Content p {
+  font-size: var(--font-size-small);
+}
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| Content Block No Title Mahube - End
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| Content - Start
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+.Content .blockContents *:last-child {
+  margin: 0;
+}
+
+.Content .blockContents iframe {
+  width: 100%;
+}
+
+@media screen and (min-width: 767px) {
+  .Content .blockContents iframe {
+    max-width: 100%;
+    height: 400px;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .Content .blockContents iframe {
+    width: 800px;
+  }
+}
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| Content - End
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| Content Block with Title Mahube - Start
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+.contentBlockWithTitleMahube .contentBlockTitle {
+  margin: 0 0 20px 0;
+}
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| Content Block with Title Mahube - End
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+/*!
+ |-----------------------------------------------------------------------------------------
+ |
+ |
+ | posts List Mahube Careers - Start
+ |
+ |
+ |-----------------------------------------------------------------------------------------
+*/
+.postsListMahubeCareers .postsItem:hover .postsItemImg {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+.postsListMahubeCareers .postsItem:first-of-type .postsItemWrap {
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+.postsListMahubeCareers .postsItemWrap {
+  display: flex;
+  align-content: flex-start;
+}
+.postsListMahubeCareers .postsItemHeader {
+  flex: 0 0 auto;
+  width: 350px;
+  padding-bottom: 20px;
+  margin-right: 60px;
+}
+.postsListMahubeCareers .postsItemBtn {
+  padding: 30px 0 1px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+@media (max-width: 991px) {
+  .postsListMahubeCareers .postsItemBtn,
+  .postsListMahubeCareers .postsItemBtn > div,
+  .postsListMahubeCareers .postsItemBtn a {
+    width: 100%;
+  }
+}
+
+.postsListMahubeCareers .postsItemBody {
+  flex: 1 1 auto;
+  padding: 30px 0 1px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+.postsListMahubeCareers .postsItemImgHolder {
+  overflow: hidden;
+  height: 100%;
+}
+.postsListMahubeCareers .postsItemImg {
+  display: block;
+  height: 100%;
+}
+.postsListMahubeCareers .postsItemTitle {
+  max-width: 570px;
+  margin-bottom: 15px;
+}
+.postsListMahubeCareers .postsItemDate {
+  max-width: 570px;
+  margin-bottom: 15px;
+  color: #6c757d;
+  font-size: 14px;
+}
+.postsListMahubeCareers .postsItemDate i {
+  margin-right: 8px;
+}
+.postsListMahubeCareers .postsItemPreview {
+  max-width: 570px;
+}
+
+@media (max-width: 991px) {
+  .postsListMahubeCareers .postsItem:first-of-type .postsItemWrap {
+    border-top: 0;
+  }
+  .postsListMahubeCareers .postsItemWrap {
+    flex-wrap: wrap;
+    align-content: initial;
+  }
+  .postsListMahubeCareers .postsItemHeader {
+    flex: 0 0 100%;
+    width: 100%;
+    padding-bottom: 0;
+    margin-right: 0;
+  }
+  .postsListMahubeCareers .postsItemBody {
+    flex: 0 0 100%;
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 0;
+  }
+  .postsListMahubeCareers .postsItemImg {
+    height: auto;
+    padding-bottom: 75%;
+  }
+}
+/*!
+ |-----------------------------------------------------------------------------------------
+ |
+ |
+ | posts List Mahube Careers - End
+ |
+ |
+ |-----------------------------------------------------------------------------------------
+*/
+/*!
+ |-----------------------------------------------------------------------------------------
+ |
+ |
+ | posts Details Mahube Careers - start
+ |
+ |
+ |-----------------------------------------------------------------------------------------
+*/
+.postDetailsOne.careers .categories {
+  display: none;
+}
+
+.postDetailsOne.careers .pdfViewer {
+  height: 450px;
+  width: 100%;
+}
+
+@media screen and (min-width: 500px) {
+  .postDetailsOne.careers .pdfViewer {
+    height: 650px;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .postDetailsOne.careers .pdfViewer {
+    height: 800px;
+  }
+}
+/*!
+ |-----------------------------------------------------------------------------------------
+ |
+ |
+ | posts Details Mahube Careers - end
+ |
+ |
+ |-----------------------------------------------------------------------------------------
+*/
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| Misc - Start
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+.communityActionLogo {
+  width: 100%;
+}
+
+.intercom-lightweight-app,
+.intercom-app iframe.intercom-launcher-frame {
+  z-index: 1001 !important;
+}
+
+.intercom-app iframe.intercom-launcher-frame,
+.intercom-lightweight-app-launcher {
+  bottom: 95px !important;
+}
+
+.intercom-app iframe:not(.intercom-launcher-frame) {
+  bottom: 70px !important;
+}
+
+.intercom-messenger-frame {
+  box-shadow: none !important;
+  z-index: 1000 !important;
+}
+/*
+|-----------------------------------------------------------------------------------------
+|
+|
+| Misc - End
+|
+|
+|-----------------------------------------------------------------------------------------
+*/
+/*!
+ |-----------------------------------------------------------------------------------------
+ |
+ |
+ | Two Column Mahube - Start
+ |
+ |
+ |-----------------------------------------------------------------------------------------
+*/
+.twoColMahube {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 30px;
+  row-gap: 40px;
+}
+
+.twoColMahube.vcentered .colMahube {
+  align-self: center;
+}
+
+.twoColMahube.vbottom .colMahube {
+  align-self: flex-end;
+}
+
+@media screen and (min-width: 991px) {
+  .twoColMahube {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .twoColMahube.ratio1t9 {
+    grid-template-columns: 1fr 9fr;
+  }
+
+  .twoColMahube.ratio2t8 {
+    grid-template-columns: 2fr 8fr;
+  }
+
+  .twoColMahube.ratio3t7 {
+    grid-template-columns: 3fr 7fr;
+  }
+
+  .twoColMahube.ratio4t6 {
+    grid-template-columns: 4fr 6fr;
+  }
+
+  .twoColMahube.ratio6t4 {
+    grid-template-columns: 6fr 4fr;
+  }
+
+  .twoColMahube.ratio7t3 {
+    grid-template-columns: 7fr 3fr;
+  }
+
+  .twoColMahube.ratio8t2 {
+    grid-template-columns: 8fr 2fr;
+  }
+
+  .twoColMahube.ratio9t1 {
+    grid-template-columns: 9fr 1fr;
+  }
+
+}
+/*!
+ |-----------------------------------------------------------------------------------------
+ |
+ |
+ | Two Column Mahube - End
+ |
+ |
+ |-----------------------------------------------------------------------------------------
+*/
+/*!
+ |-----------------------------------------------------------------------------------------
+ |
+ |
+ | Four Column Mahube - Start
+ |
+ |
+ |-----------------------------------------------------------------------------------------
+*/
+.fourColMahube {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 30px;
+  row-gap: 40px;
+}
+
+@media screen and (min-width: 650px) {
+  .fourColMahube {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .fourColMahube {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+/*!
+ |-----------------------------------------------------------------------------------------
+ |
+ |
+ | Four Column Mahube - End
+ |
+ |
+ |-----------------------------------------------------------------------------------------
+*/
+/*!
+ |-----------------------------------------------------------------------------------------
+ |
+ |
+ | Three Column Mahube - Start
+ |
+ |
+ |-----------------------------------------------------------------------------------------
+*/
+.threeColMahube {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 30px;
+  row-gap: 40px;
+}
+
+@media screen and (min-width: 991px) {
+  .threeColMahube {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+/*!
+ |-----------------------------------------------------------------------------------------
+ |
+ |
+ | Three Column Mahube - End
+ |
+ |
+ |-----------------------------------------------------------------------------------------
+*/
+/*!
+ |-----------------------------------------------------------------------------------------
+ |
+ |
+ | Table Mahube - Start
+ |
+ |
+ |-----------------------------------------------------------------------------------------
+*/
+.tableMahube {
+  overflow-x: auto;
+}
+
+.tableMahube .tableMahubeHeader {
+  margin: 0 0 10px 0;
+}
+/*!
+ |-----------------------------------------------------------------------------------------
+ |
+ |
+ | Table Mahube - End
+ |
+ |
+ |-----------------------------------------------------------------------------------------
+*/
+/*!
+ |-----------------------------------------------------------------------------------------
+ |
+ |
+ | Dialog - Start
+ |
+ |
+ |-----------------------------------------------------------------------------------------
+*/
+.content-style table.Dialog th,
+.content-style table.Dialog td {
+  display: block;
+  padding: 8px;
+}
+
+@media screen and (min-width: 767px) {
+  .content-style table.Dialog th,
+  .content-style table.Dialog td {
+    display: table-cell;
+  }
+
+  .content-style table.Dialog th + td {
+    padding-left: 15px;
+  }
+}
+/*!
+ |-----------------------------------------------------------------------------------------
+ |
+ |
+ | Dialog - End
+ |
+ |
+ |-----------------------------------------------------------------------------------------
+*/
+/*!
+ |-----------------------------------------------------------------------------------------
+ |
+ |
+ | Page Area - Start
+ |
+ |
+ |-----------------------------------------------------------------------------------------
+*/
+.liveEdArea .pageAreaMahube.mobileOnly,
+.liveEdArea .pageAreaMahube.desktopOnly {
+  display: block;
+}
+
+.pageAreaMahube.mobileOnly {
+  display: block;
+}
+
+@media screen and (min-width: 991px) {
+  .pageAreaMahube.mobileOnly {
+    display: none;
+  }
+}
+
+.pageAreaMahube.desktopOnly {
+  display: none;
+}
+
+@media screen and (min-width: 991px) {
+  .pageAreaMahube.desktopOnly {
+    display: block;
+  }
+}
+/*!
+ |-----------------------------------------------------------------------------------------
+ |
+ |
+ | Page Area - End
+ |
+ |
+ |-----------------------------------------------------------------------------------------
+*/
+/*!
+ |-----------------------------------------------------------------------------------------
+ |
+ |
+ | Events Mahube - Start
+ |
+ |
+ |-----------------------------------------------------------------------------------------
+*/
+.eShopEventsOne .eventsItemMahubeList {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  column-gap: 30px;
+  row-gap: 40px;
+}
+
+@media screen and (min-width: 991px) {
+  .eShopEventsOne .eventsItemMahubeList {
+    grid-template-columns: repeat(3, 1fr)
+  }
+}
+
+.eShopEventsOne .eventsItemMahubeWrap {
+  overflow: hidden;
+  border-radius: 4px;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 350px) {
+  .eShopEventsOne .eventsItemMahubeWrap {
+    flex-direction: row;
+  }
+}
+
+.eShopEventsOne .eventsItemMahubeRelease {
+  padding: 10px 15px;
+  color: var(--color-white);
+  font-size: 14px;
+  text-align: center;
+  background-color: var(--color-primary);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 83px;
+}
+
+.eShopEventsOne .eventsItemMahubeRelease span {
+  display: block;
+}
+
+.eShopEventsOne .eventsItemMahubeRelease span:nth-child(1) {
+  line-height: 1;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.eShopEventsOne .eventsItemMahubeBody {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  padding: 30px 25px;
+}
+
+.eShopEventsOne .eventsItemMahubeTitle {
+  margin-bottom: 15px;
+}
+
+.eShopEventsOne .eShopEventsOne .eventsItemDescription {
+  margin-bottom: 15px;
+  margin: 0 0 20px 0;
+}
+
+.eShopEventsOne .btn p {
+  margin: 0;
+}
+
+
+/*Details*/
+.eShopEventsDetailsOne .eventsDetailsHeaderBottom .mwBtnRight {
+  width: 100%;
+}
+
+/*!
+ |-----------------------------------------------------------------------------------------
+ |
+ |
+ | Events Mahube - End
+ |
+ |
+ |-----------------------------------------------------------------------------------------
+*/
+
+
+
+
+
+
+.content-style table.Dialog td {
+    display: block;
+    padding: 8px 8px 8px 0;
+}
